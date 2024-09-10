@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "express": "^4.20.0",
+    "mongoose": "^8.6.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^22.5.4",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.2"
+  },
+  "name": "15-be-extra-01-typescript",
+  "description": "-   Introduction: `intro`-Branch [hier.](https://github.com/WD-23-D10-A/15-BE-Extra-01-TypeScript/tree/intro)\r -   Backend TypeScript: `backend`-Branch [hier.](https://github.com/WD-23-D10-A/15-BE-Extra-01-TypeScript/tree/backend)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
